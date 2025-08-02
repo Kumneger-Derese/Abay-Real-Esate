@@ -3,7 +3,10 @@ import BenefitsImage from '../assets/benefits.png'
 
 const Benefits = () => {
   return (
-    <div className='flex mb-32 py-12 px-4 bg-green-100 dark:bg-green-900 flex-col sm:flex-row gap-8'>
+    <div
+      id='offers'
+      className='flex mb-32 py-12 px-4 bg-green-100 dark:bg-green-900 flex-col sm:flex-row gap-8'
+    >
       <section className='flex-1/2'>
         <img
           src={BenefitsImage}

@@ -7,7 +7,10 @@ const CTAForm = () => {
   }
 
   return (
-    <div className='flex flex-col bg-green-100 dark:bg-green-900 px-8 mb-32 py-10'>
+    <div
+      id='contact'
+      className='flex flex-col bg-green-100 dark:bg-green-900 px-8 mb-32 py-10'
+    >
       {/* CTA Header */}
       <div className='text-center mb-14'>
         <h1 className='text-2xl sm:text-4xl font-bold mb-2'>

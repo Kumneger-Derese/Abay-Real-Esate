@@ -6,7 +6,7 @@ import { HiArrowRight, HiOutlineLocationMarker } from 'react-icons/hi'
 
 const Listings = () => {
   return (
-    <div className='my-32'>
+    <div id='properties' className='my-32'>
       <div className='text-center mb-14'>
         <h1 className='text-2xl sm:text-4xl font-bold mb-2'>
           Featured Listings

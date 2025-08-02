@@ -3,7 +3,10 @@ import { locationImages } from '../assets/locationImages'
 
 const Locations = () => {
   return (
-    <div className='my-32 py-16 sm:px-8 bg-green-100 dark:bg-green-900 '>
+    <div
+      id='locations'
+      className='my-32 py-16 sm:px-8 bg-green-100 dark:bg-green-900 '
+    >
       <div className='text-center mb-14'>
         <h1 className='text-2xl sm:text-4xl font-bold mb-2'>
           Popular Locations
